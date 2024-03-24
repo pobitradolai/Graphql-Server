@@ -26,10 +26,10 @@ const typeDefs = gql`
 
 // MySQL Connection
 const pool = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'graphql',
+  host: 'bcm2kzepzvzpyfaq1m0k-mysql.services.clever-cloud.com',
+  user: 'uvmawec6bv7ufofb',
+  password: 'qbVLZJixUDYE6BDicmui',
+  database: 'bcm2kzepzvzpyfaq1m0k',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
